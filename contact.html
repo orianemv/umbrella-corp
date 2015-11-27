@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Document</title>
+</head>
+<body>
+
+<header>
+
+<navbar>
+
+<ul>
+		<li>
+			<a href="index.html">accueil</a>
+		</li>
+		<li>
+			<a href="apropos.html">apropos</a>
+		</li>
+		<li>
+			<a href="contact.html">contact</a>
+		</li>
+	</ul>
+
+</navbar>
+
+</header>
+
+	<form method="post" action="traitement.php"> 
+		
+		<p><label>Nom:</label><p> <input type="text" name="nom" id="nom"/></p>
+		<p><label>Mail:</label><p><input type="email" name="mail" id="mail"/></p>
+		
+		<p><label for="message"></label><textarea name="message" id="message" rows="10" cols="50">votre message</textarea></p>
+	
+		<p><input type="submit" name="envoyer" value="Envoyer" />      </p>
+
+	</form>	
+
+
+</body>
+</html>
